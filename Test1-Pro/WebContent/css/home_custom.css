@@ -1,0 +1,98 @@
+@CHARSET "ISO-8859-1";
+
+.home-search-bar {
+	width: 30%;
+	text-align: center;	
+	margin-left: 85px;
+}
+
+.home-search-btn {
+	width:50px ;
+	height:40px ;
+	background-color: orange;
+	margin-left: -5px;
+}
+.home-search-btn:hover {
+	background-color: #ac7000;
+}
+
+.material-icons {
+	background-color: transparent;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:  rgb(86, 93, 112);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(49, 52, 59);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+.sign-btn2 {
+	padding-left:20px;
+	background-color: transparent;
+		
+}
+
+.sign-btn1:hover {
+	background-color: rgb(49, 52, 59);
+}
+
+ .other-icon {
+	color: white;
+	padding-left: 60px;
+}
+
+.col-sm-2{
+	border-right-style: solid ;
+	border-right-color: silver ;
+}
+
+.media {
+	padding-bottom: 10px;
+	border-bottom: thin silver;
+	border-bottom-style: solid ;
+	
+}
+
+.my-4 {
+	padding-bottom: 10px;
+	border-bottom-color: silver;
+	border-bottom: thin silver;
+	border-bottom-style: solid ;
+}
+
+.rating {
+	color: #000100;
+}
+
+.rating:hover {
+	color: #000000;
+}
